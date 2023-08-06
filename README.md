@@ -1,6 +1,8 @@
 # simple-screenshotter
 Lightweight script for creating multiple screenshots that can be bound to a single key.
 
+Created to replace the default Windows screenshot function, which only sends a screenshot to the clipboard. This script sends a fullscreen screenshot the desktop or another customizable path. Running the script multiple times doesn't overwrite existing screenshots in that path.
+
 Instructions: 
 
 1. Ensure download path is correct: download_path = os.path.abspath(r'C:\Users\YOURUSERNAMEHERE\Desktop')
